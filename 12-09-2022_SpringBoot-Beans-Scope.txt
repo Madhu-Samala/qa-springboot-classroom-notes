@@ -89,6 +89,70 @@ Problems:
 4. Destroy method ( cleanup code )
 
 
+-- ApplicationContext
+
+
+
+-- Dependencies
+	- a bean object which is needed for my object to function
+
+-- Dependency Injection
+	- Injecting dependencies by an external entity ( core container )
+
+-- constructor dependency injection
+
+@Component -> by default spring core container manages it as bean
+
+-- RESTful web services
+
+-- Monolithic applications
+	- Tech stack
+		- Front End ( Presentation Layer )
+			- HTML,CSS, JavaScript, JSP
+			- Angular, React, Vue, .. 
+		- Business Layer
+			- Spring, SpringBoot
+		- Persistence Layer
+			- JDBC, Hibernate, JPA
+		- single data source
+
+	- MySQL, Oracle
+
+	- NoSQL databases
+		- MongoDB (high read / high write )
+	- Session Management
+		- Redis (Key-value)
+		- cache management
+
+	- Recommendation/ favourites
+	- GraphQL
+
+-- WebServices
+		- Controller
+			- Taking Request
+			- Sending Response
+		- Service
+			- Business Logic
+		- Repository
+			- Data base logic
+
+- - @RestController
+
+-- @RequestMapping("employee-service/hello")
+
+-- HTTP Request Methods
+	- GET - Get resources (read)
+	- POST - create a resource
+	- PUT - update a resource
+	- DELETE - delete a rource
+	- PATCH - partial update
+
+-- API Testing Tool
+	- PostMan
+			
+
+
+
 
 		
 
