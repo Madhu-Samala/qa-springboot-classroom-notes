@@ -1,0 +1,96 @@
+--Spring Boot
+
+-- Objective
+
+-- Build RESTful WebService using Spring Boot
+-- Agenda
+	- Spring Boot
+	- Spring Framework
+	- Spring Beans
+	- Dependency Injection
+	
+	- RESTful webservices
+		- Enter prise application
+		- web application / web services
+		- Multi Tier Architecture
+		- RESTful web services
+		
+
+-- Object Oriented Programming
+		- Object
+		- Class
+
+-- class Employee {
+	...
+	...
+	Employee(){
+	}
+	Employee(...){
+	}
+
+	public double processSalary(){ }
+	public void displayEmployeeDetails() {}
+}
+
+	- POJO ( Plain Old Java Object )
+
+class Employee extends EmpoyeeDepartment implements ProcessSalary, Department{
+
+}
+Light Weight Object
+Heavy Weight Object
+
+JEE ( Java Enterprise Edition )
+	- APIs
+
+- Spring 
+	- Framework
+	- Modular
+
+Problems:
+	1. Dependency Management
+
+-- Spring Boot
+	- group id 
+		com/org.companyname.projectname
+	- artifactid
+		- application-name without the jar file
+
+-- STS ( Spring Tool Suite )
+
+-- jar
+-- war ( web archive file)
+
+-- Spring Bean
+	- is a Java Object which is maintained by Spring Container
+
+-- How spring identifies beans and manage them?
+-- Through configuration
+
+-- Beans ( objects )
+-- Eager Instantiation
+-- Lazy Instantiation
+
+
+-- Scope
+	- singleton 
+		- Only one instance per the container
+		- this is the default scope
+		- singleton beans are always eager loaded
+	- prototype
+		- Every time new instance of the bean will be created by the container
+		- By default prototype beans are always lazy loaded
+
+
+-- Spring Beans have life cycle associated with it
+1. Construction (instantiation) ( new constructor() )
+2. Set the properties ( setter method properties)
+3. Init method ( setup code )
+4. Destroy method ( cleanup code )
+
+
+
+		
+
+
+	
