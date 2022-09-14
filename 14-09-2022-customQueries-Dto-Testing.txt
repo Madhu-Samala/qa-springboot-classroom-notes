@@ -1,0 +1,62 @@
+-- Recap
+	- SpringBoot
+	- Dependencies
+		- web
+		- devtools
+		- data jpa
+			- h2
+			- mysql
+	- Controller
+		- Take the request ( Valid @Valid)-> RequestMapping (HTTP Request)
+		- Send the request to Service Layer for processing the data
+		- Get the response from the Service Layer
+		- Return the Response using ResponseEntity
+		- If any exception occured, throws the Exception (Custom Exception)
+	- Service
+		- Business Logic
+		- Helps to communicate with other web services
+		
+	- Repository
+		- Perform database operations
+		- JpaRepository (CRUD )
+
+-- Lombok
+	- eliminate the biolerplate code
+	- @NoArgContructor, @AllArgsConstrutor, @Getter, @Setter, @ToString
+	- @Data
+
+
+-- Agenda
+	- Custom Queries
+	- Profiles
+	- Swagger
+	- Unit Testing
+
+-- Custom Queries
+	- Data base 
+		- complex database operations
+		- SQL Queries
+			- SELECT 
+				- filter
+				- groupby
+				- having
+			- aggregate functions
+			- join
+
+	- Data Jpa Supports two ways for database operations
+		- JPQL ( Java Persistence Query Language )
+			- which is database independent
+		- Dialect
+
+		- SQL ( Native Queries )
+
+	- Repository Methods (@Query)
+
+	update emp_details set emp_email = '' and emp_contactno= '' where emp_id = 1;
+	no of rows updated
+
+
+-- Data Transfer Objects
+	- Object which represents data to be transferred from one service to other service or
+		one layer to other layer 
+			

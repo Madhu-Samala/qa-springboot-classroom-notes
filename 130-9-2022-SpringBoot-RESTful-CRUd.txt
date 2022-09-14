@@ -1,0 +1,28 @@
+--Recap
+-- Spring Boot
+	- Spring Bean
+	- ApplicationContext
+	- Spring Bean Life cycle
+	- Spring Bean Scope
+	- byname, byType and both
+	- Autowiring @Autowired
+		- constructor
+		- property
+	- @Component
+	- @Qualifier
+
+-- Multi Tier Architecture
+-- Monolithic vs Web Services
+-- RESTful web service using springBoot
+	- Controller
+	- Service
+	- Repository
+-- HelloWorld Service
+-- PostMan
+
+-- Agenda
+	- Implement CRUD Operations on objects using RESTful webservices
+
+
+-- Lombok
+	- libray which is used generate boilerplate code for entity / model classes
